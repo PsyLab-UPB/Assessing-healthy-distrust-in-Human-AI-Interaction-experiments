@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "description": "Browser-based TOJ experiments using jsPsych. This is a second fork of  bjoluc/jspsych-toj-experiments",
+  "scripts": {
+    "jspsych": "jspsych -e prestudy-D3",
+    "start": "npm run jspsych -- run",
+    "build": "npm run jspsych -- build",
+    "jatos": "npm run jspsych -- build --jatos"
+  },
+  "dependencies": {
+    "@jspsych/plugin-call-function": "^1.1.0",
+    "@jspsych/plugin-fullscreen": "^1.1.0",
+    "@jspsych/plugin-html-button-response": "^1.1.0",
+    "@jspsych/plugin-html-keyboard-response": "^1.1.0",
+    "@jspsych/plugin-preload": "^1.1.0",
+    "@jspsych/plugin-survey-likert": "^1.1.2",
+    "@jspsych/plugin-survey-multi-choice": "^1.1.0",
+    "@jspsych/plugin-survey-text": "^1.1.0",
+    "@tensorflow-models/speech-commands": "^0.5.4",
+    "@tensorflow/tfjs": "^3.19.0",
+    "@types/jquery": "^3.5.32",
+    "@types/jqueryui": "^1.12.23",
+    "d3-color": "^3.0.1",
+    "howler": "^2.2.3",
+    "jquery": "^3.7.1",
+    "jspsych": "^7.3.1",
+    "marked": "^3.0.7",
+    "md5": "^2.3.0",
+    "nanoid": "3.1.29",
+    "random-int": "^3.0.0",
+    "vsync-estimate": "^0.2.0"
+  },
+  "devDependencies": {
+    "jspsych-builder": "^4.4.0" 
+  },
+  "author": "bjoluc <mail@bjoluc.de>, caiusno1, chisburger, TPeters93",
+  "license": "MIT",
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "printWidth": 100
+  },
+  "browserslist": ">0.25%, not dead"
+}

@@ -1,0 +1,21 @@
+@import "~jspsych/css/jspsych.css";
+
+@import "jspsych-toj";
+@import "bar-stimuli";
+
+.jspsych-display-element {
+  background-color: #c0c0c0; //#ffffff c0c0c0
+}
+
+.declaration {
+  width: 100vw;
+  max-width: 800px;
+  height: 80vh;
+}
+
+.technical-instruction {
+  width: 93vw;
+  max-width: 800px;
+  height: 70vh;
+  max-height: 400px;
+}
